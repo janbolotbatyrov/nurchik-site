@@ -1,0 +1,61 @@
+.container {
+    width: 350px;
+    margin: 100px auto;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+.fullname {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+span {
+    display: block;
+    color: rgb(85, 85, 85);
+    margin-bottom: 3px;
+}
+
+input {
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 3px;
+    height: 30px;
+}
+
+.birthday input {
+    width: 100%;
+}
+
+.gender__inner {
+    display: flex;
+    align-items: center;
+}
+.gender__inner input {
+}
+
+.account input {
+    width: 100%;
+}
+
+.password input {
+    width: 100%;
+}
+
+.phone-number input {
+    width: 100%;
+}
+
+button {
+    background: blue;
+    width: 100%;
+    border: none;
+    color: #fff;
+    height: 40px;
+    border-radius: 3px;
+    margin-top: 30px;
+}

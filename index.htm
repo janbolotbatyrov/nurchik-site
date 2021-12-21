@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Анкета</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Анкета  </h1>
+      <form>
+        <div class="fullname">
+          <div class="name">
+            <span>Имя</span>
+            <input type="text" />
+          </div>
+          <div class="surname">
+            <span>Фамилия</span>
+            <input type="text" />
+          </div>
+        </div>
+        <div class="birthday">
+          <span>Дата рождения</span>
+          <input type="date" />
+        </div>
+        <div class="gender">
+          <span>Пол</span>
+          <div class="gender__inner">
+            <input type='checkbox'>Мужской</input>
+            <input type='checkbox'>Женский</input>
+          </div>
+        </div>
+        <div class="account">
+          <span>Имя аккаунта:</span>
+          <input type="email" />
+        </div>
+        <div class="password">
+          <span>Пароль:</span>
+          <input type="password" />
+        </div>
+        <div class="phone-number">
+          <span>Номер телефона:</span>
+          <input type="text" />
+        </div>
+        <button>Создать</button>
+      </form>
+    </div>
+  </body>
+</html>
